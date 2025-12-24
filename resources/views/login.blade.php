@@ -7,6 +7,7 @@
     <title>Home</title>
 </head>
 <body>
+    <div class="gradient background"></div>
     <header class='header'>
         <div class="header__contents">
             <div class="header__contents__elements">
@@ -14,13 +15,21 @@
                     <a href="/"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/home.svg")}}'>Home</li></a>
                     <a href="/input"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/edit.svg")}}'>Input</li></a>
                     <a href="/report"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/calendar-lines-pen.svg")}}'>Report</li></a>
-                    <a href="/hz"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/chart-histogram.svg")}}'>Hz</li></a>
+                    <a href="/analysis"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/chart-histogram.svg")}}'>Analysis</li></a>
                 </ul>
             </div>
-            <div class="header__contents__log">
-                <a href="/singup"><button class="header__contents__log__element btn"><img class="icon" src='{{asset("img/icon/user.svg")}}'>Profile</button></a>
+            <div class="header__contents__sing">
+                <a href="/profile"><button class="header__contents__sing__element btn"><img class="icon" src='{{asset("img/icon/user.svg")}}'>Profile</button></a>
             </div>
         </div>
     </header>
+    <main>
+        <div class="main__contents">
+            
+        </div>
+    </main>
+    <img src='{{asset("img/animation/dance.gif")}}' class="anime__dance">
+    <button class="anime__dance__btn"></button>
+        <script src='{{asset("js/index.js")}}'></script>
 </body>
 </html>

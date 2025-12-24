@@ -15,14 +15,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {return view('index');});
 
-Route::get('/input', function () {return view('input');});
+Route::get('/input', function () {return view('input');})->middleware('auth');
 
-Route::get('/report', function () {return view('report');});
+Route::get('/report', function () {return view('report');})->middleware('auth');
 
-Route::get('/hz', function () {return view('hz');});
+Route::get('/analysis', function () {return view('analysis');})->middleware('auth');
 
-Route::get('/singup', function () {return view('singup');});
+Route::get('/singup', function () {return view('singup');})->name('singup');;
 
-Route::get('/singin', function () {return view('singin');});
+Route::get('/singin', function () {return view('singin');});;
 
-Route::get('/profile', function () {return view('profile');});
+Route::get('/profile', function () {return view('profile');})->middleware('auth');
