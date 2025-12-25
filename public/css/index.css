@@ -90,8 +90,17 @@ a{
     min-height: 35px;
     border-radius: 5px;
 }
+.main__contents__sing__elements__input.up{
+    
+}
+.main__contents__sing__elements__input.in{
+
+}
+.input__error{
+    border: solid 3px rgb(255, 0, 72);
+}
 .main__contents__sing__elements__icon{
-    pointer-events: none;   
+    /* pointer-events: none;    */
     top: 25%;
     right: 10px;
     position: absolute;
@@ -105,9 +114,18 @@ a{
 .license{
     accent-color: white;
 }
-.main__contents__sing__elements__sing{
-    color: white;
+.main__contents__singup__elements__btn{
+    width: 100%;
+}
+.main__contents__singin__elements__btn{
+    width: 100%;
+}
+.main__contents__sing__elements__singin{
     font-size: 20px;
+}
+.main__contents__sing__elements__singup{
+    font-size: 20px;
+    color: white;
 }
 .icon{
     width: 25px;
@@ -168,6 +186,8 @@ a{
     left: 0;
 }
 .anime__dance{
+    max-height: 360px;
+    max-width: 330px;
     z-index: -1;
     display: none;
     position: absolute;

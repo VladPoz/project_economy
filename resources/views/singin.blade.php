@@ -39,13 +39,13 @@
                         </div>
                         <div class="main__contents__sing__elements">
                             <input type="password" name="password" placeholder="password" maxlength="14" class="main__contents__sing__elements__input password">
-                            <img class="main__contents__sing__elements__icon password__check" src='{{asset("img/icon/eye.svg")}}'>
+                            <img class="main__contents__sing__elements__icon password__check" src='{{asset("img/icon/eye-crossed.svg")}}'>
                         </div>
                         <div class="main__contents__sing__elements">
-                            <button class="main__contents__sing__elements btn gradient">Sing In</button>
+                            <button class="main__contents__singin__elements__btn btn gradient">Sing In</button>
                         </div>
                         <div class="main__contents__sing__elements">
-                            <span class="main__contents__sing__elements__sing">I don't have an account | <a class="main__contents__sing__elements__sing" href='/singup'><b>Sing Up</b></a></span>
+                            <span class="main__contents__sing__elements__singin">I don't have an account | <a class="main__contents__sing__elements__singin" href='/singup'><b>Sing Up</b></a></span>
                         </div>
                     </div>
                 </div>
@@ -55,6 +55,8 @@
     </main>
     <img src='{{asset("img/animation/dance.gif")}}' class="anime__dance">
     <button class="anime__dance__btn"></button>
+    <!-- Подключение js файла -->
     <script src='{{asset("js/index.js")}}'></script>
+    <script src='{{asset("js/sing.js")}}'></script>
 </body>
 </html>

@@ -42,20 +42,20 @@
                         </div>
                         <div class="main__contents__sing__elements">
                             <input type="password" name="password" placeholder="password" maxlength="14" class="main__contents__sing__elements__input password">
-                            <img class="main__contents__sing__elements__icon password__check" src='{{asset("img/icon/eye.svg")}}'>
+                            <img class="main__contents__sing__elements__icon password__check" src='{{asset("img/icon/eye-crossed.svg")}}'>
                         </div>
                         <div class="main__contents__sing__elements">
                             <input type="password" name="passwordRepit" placeholder="password repit" maxlength="14" class="main__contents__sing__elements__input passwordRepit">
-                            <img class="main__contents__sing__elements__icon passwordRepit__check" src='{{asset("img/icon/eye.svg")}}'>
+                            <img class="main__contents__sing__elements__icon passwordRepit__check" src='{{asset("img/icon/eye-crossed.svg")}}'>
                         </div>
                         <div class="main__contents__sing__elements">
                             <span class="main__contents__sing__elements__license">I accept the <a class="main__contents__sing__elements__license" href="/licens"><b>license agreement</a></b> | <input type="checkbox" class="license"></span>
                         </div>
                         <div class="main__contents__sing__elements">
-                            <button class="main__contents__sing__elements btn">Sing Up</button>
+                            <button class="main__contents__singup__elements__btn btn">Sing Up</button>
                         </div>
                         <div class="main__contents__sing__elements">
-                            <span class="main__contents__sing__elements__sing">I have an account | <a class="main__contents__sing__elements__sing" href='/singin'><b>Sing In</b></a></span>
+                            <span class="main__contents__sing__elements__singup">I have an account | <a class="main__contents__sing__elements__singup" href='/singin'><b>Sing In</b></a></span>
                         </div>
                     </div>
                 </div>
