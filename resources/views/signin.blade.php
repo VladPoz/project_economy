@@ -19,8 +19,8 @@
                     <a href="/analysis"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/chart-histogram.svg")}}'>Analysis</li></a>
                 </ul>
             </div>
-            <div class="header__contents__sing">
-                <a href="/profile"><button class="header__contents__sing__element btn"><img class="icon" src='{{asset("img/icon/user.svg")}}'>Profile</button></a>
+            <div class="header__contents__sign">
+                <a href="/profile"><button class="header__contents__sign__element btn"><img class="icon" src='{{asset("img/icon/user.svg")}}'>Profile</button></a>
             </div>
         </div>
     </header>
@@ -28,24 +28,24 @@
         <!-- <form method="POST"> -->
             <div class="main__contents">
                 <div class="main__contents__left">
-                    <div class="main__contents__sing">
-                        <div class="main__contents__sing__elements">
-                            <input type="text" name="userName" placeholder="username" maxlength="14" class="main__contents__sing__elements__input userName">
-                            <img class="main__contents__sing__elements__icon" src='{{asset("img/icon/user.svg")}}'>
+                    <div class="main__contents__sign">
+                        <div class="main__contents__sign__elements">
+                            <input type="text" name="userName" placeholder="username" maxlength="14" class="main__contents__sign__elements__input userName">
+                            <img class="main__contents__sign__elements__icon" src='{{asset("img/icon/user.svg")}}'>
                         </div>
-                        <div class="main__contents__sing__elements">
-                            <input type="email" name="email" placeholder="email" maxlength="24" class="main__contents__sing__elements__input email">
-                            <img class="main__contents__sing__elements__icon" src='{{asset("img/icon/at.svg")}}'>
+                        <div class="main__contents__sign__elements">
+                            <input type="email" name="email" placeholder="email" maxlength="32" class="main__contents__sign__elements__input email">
+                            <img class="main__contents__sign__elements__icon" src='{{asset("img/icon/at.svg")}}'>
                         </div>
-                        <div class="main__contents__sing__elements">
-                            <input type="password" name="password" placeholder="password" maxlength="14" class="main__contents__sing__elements__input password">
-                            <img class="main__contents__sing__elements__icon password__check" src='{{asset("img/icon/eye-crossed.svg")}}'>
+                        <div class="main__contents__sign__elements">
+                            <input type="password" name="password" placeholder="password" maxlength="14" class="main__contents__sign__elements__input password">
+                            <img class="main__contents__sign__elements__icon password__check" src='{{asset("img/icon/eye-crossed.svg")}}'>
                         </div>
-                        <div class="main__contents__sing__elements">
-                            <button class="main__contents__singin__elements__btn btn gradient">Sing In</button>
+                        <div class="main__contents__sign__elements">
+                            <button class="main__contents__signin__elements__btn btn gradient">Sign In</button>
                         </div>
-                        <div class="main__contents__sing__elements">
-                            <span class="main__contents__sing__elements__singin">I don't have an account | <a class="main__contents__sing__elements__singin" href='/singup'><b>Sing Up</b></a></span>
+                        <div class="main__contents__sign__elements">
+                            <span class="main__contents__sign__elements__signin">I don't have an account | <a class="main__contents__sign__elements__signin" href='/signup'><b>sign Up</b></a></span>
                         </div>
                     </div>
                 </div>
@@ -55,8 +55,8 @@
     </main>
     <img src='{{asset("img/animation/dance.gif")}}' class="anime__dance">
     <button class="anime__dance__btn"></button>
-    <!-- Подключение js файла -->
+    <!-- Подключение js файлов -->
     <script src='{{asset("js/index.js")}}'></script>
-    <script src='{{asset("js/sing.js")}}'></script>
+    <script src='{{asset("js/sign/signinValidate.js")}}'></script>
 </body>
 </html>

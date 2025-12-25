@@ -21,8 +21,8 @@ Route::get('/report', function () {return view('report');})->middleware('auth');
 
 Route::get('/analysis', function () {return view('analysis');})->middleware('auth');
 
-Route::get('/singup', function () {return view('singup');})->name('singup');;
+Route::get('/signup', function () {return view('signup');})->name('signup');;
 
-Route::get('/singin', function () {return view('singin');});;
+Route::get('/signin', function () {return view('signin');});;
 
 Route::get('/profile', function () {return view('profile');})->middleware('auth');

@@ -18,8 +18,8 @@
                     <a href="/analysis"><li class="header__contents__elements__li"><img class="icon" src='{{asset("img/icon/chart-histogram.svg")}}'>Analysis</li></a>
                 </ul>
             </div>
-            <div class="header__contents__sing">
-                <a href="/profile"><button class="header__contents__sing__element btn"><img class="icon" src='{{asset("img/icon/user.svg")}}'>Profile</button></a>
+            <div class="header__contents__sign">
+                <a href="/profile"><button class="header__contents__sign__element btn"><img class="icon" src='{{asset("img/icon/user.svg")}}'>Profile</button></a>
             </div>
         </div>
     </header>
